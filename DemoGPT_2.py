@@ -7,7 +7,7 @@ from langchain.prompts.chat import (ChatPromptTemplate,
 
 import os 
 # openai
-openai_api_key="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"
+openai_api_key=""
 os.environ["OPENAI_API_KEY"]=openai_api_key
 model_name="gpt-3.5-turbo-0613"
 
